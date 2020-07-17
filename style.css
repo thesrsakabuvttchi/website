@@ -1,0 +1,172 @@
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    text-decoration: none
+}
+
+a{
+    flex : 1;
+}
+
+.nav_bar{
+    list-style-type: none;
+    width : 80%;
+    margin:auto;
+    margin-top: 5px;
+    padding: 0px;
+    background-color: #f3f3f3;
+    font-size: large;
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 15px;
+    display: flex;
+    box-shadow: 3px 2px 8px #333333;
+    position:sticky ;
+    top: 2px;
+    z-index: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 800px) {
+   .nav_bar{
+    width: 40%;
+    }
+}
+
+a.nav_element{
+    margin: 5px;
+    padding: 10px 0px;
+    display: inline;
+    text-align: center;
+    border-radius: 15px;
+    flex: 1;
+}
+
+
+a:hover.nav_element{
+    background-color: lightgray;
+}
+
+body{
+ 
+    background-image: url("Remilia.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+}
+
+.container{
+    background-color: rgba(245,245,245,0.975);
+    margin: auto;
+    padding: 10px;
+    margin-top: 25px;
+    width: 80%;
+    flex: 1;
+    border-radius: 15px;
+    box-shadow: 3px 2px 8px #333333;
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    font-style: italic;
+    letter-spacing: 0.05em;
+    word-spacing: 0.5 em;
+    line-height: 1.5em;
+}
+
+.box{
+    background-color: white;
+    margin: 10px auto;
+    padding: 0px 20px;
+    width: 80%;
+    flex: 1;
+    border: silver solid 1px;
+    color: gray;
+}
+
+h3.box{
+    font-family: 'PT Sans', sans-serif;
+    font-size: larger;
+    letter-spacing: 0.05em;
+    word-spacing: 0.5 em;
+    line-height: 1.3em;
+}
+
+p.box{
+    font-size: medium;
+}
+
+.heading{
+    text-align: center;
+}
+
+.fbox{
+    padding: 5px 15px;
+    display: flex;
+}
+
+#profile{
+    border-radius: 30%;
+    margin : 0px 20px 0px 0px;
+    box-shadow: 3px 2px 8px #333322;
+    float: left;
+}
+@media screen and (max-width: 600px) {
+    .container{
+        display: block;
+    }
+    #profile{
+        margin: auto ; 
+        margin-bottom: 10px;
+        float: none;
+        display: flex;
+    }
+    .fbox{
+        display: block;
+    }
+}
+
+.list{
+    list-style-type: none;
+    width : 55%;
+    margin:auto;
+    margin-top: 5px;
+    padding: 0px;
+    font-size: large;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+.list_element{
+    margin: 15px 5px;
+    padding: 1px 15px;
+    background-color: rgb(180, 175, 175);
+    color: black;
+    border-radius: 10px;
+    font-size: large;
+    font-family: 'PT Sans', sans-serif;
+    display: inline;
+    flex : 1
+}
+
+footer{
+    background-color: #333;
+    color: #f4f4f4;
+    font-weight: 100;
+    margin-top: 10px;
+    padding: 40px;
+}
