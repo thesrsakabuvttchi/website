@@ -170,3 +170,5 @@ footer{
     margin-top: 10px;
     padding: 40px;
 }
+
+p + ul { margin-left: -20px; }
